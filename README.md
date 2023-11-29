@@ -7,6 +7,6 @@
 
 
 ### Table of Contents
-1- [How we did it?](#How-we-did-it?)
-2- [Data Collection](#Data-Collection)
-3- [How to Install](#how-to-install)
+- [How we did it?](#How-we-did-it?)
+- [Data Collection](#Data-Collection)
+- [How to Install](#how-to-install)
