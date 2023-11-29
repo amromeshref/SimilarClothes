@@ -11,3 +11,5 @@
 2. [Classification Model](#Classification-Model)
 3. [Similarity Detection Model](#Similarity-Detection-Model)
 4. [How to Install](#how-to-install)
+
+## How we did it?
