@@ -28,10 +28,14 @@ Our project mainly consists of two things:
 
 
 
+---
 
 ## Similarity Detection Model
 - We used the Siamese network, a specialized neural network architecture designed for tasks involving similarity and distance measurement. Siamese networks are particularly useful in scenarios where the focus is on discerning the similarity or dissimilarity between pairs of input samples.
     - Paper Link: https://www.cs.cmu.edu/~rsalakhu/papers/oneshot1.pdf
 - For training the network, it is fed pairs of examples, with one being a positive pair (similar image) and the other a negative pair (dissimilar image). During training, the network adjusts its weights through backpropagation to maximize the similarity between similar images and minimize the similarity between dissimilar images.
 
-### Data collection for training siamese network
+#### Data collection for training the Siamese network
+- To train a Siamese neural network, you need a dataset of pairs of inputs, where each pair is labeled as either similar or dissimilar.
+- We used this dataset to collect these pairs: https://github.com/seralexger/clothing-detection-ecommerce-dataset
+- Our data that was used in training: 
