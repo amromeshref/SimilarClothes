@@ -4,6 +4,7 @@
 - The aim of this project is to create an application with the primary objective of proficiently detecting visually similar clothing items.
 - The application will be intricately linked to a comprehensive database housing a diverse collection of clothing from various stores.
 - Users will be able to upload images of specific clothing item. In response, the application will provide a detailed list of similar clothes, inclusive of images, corresponding prices, and the names of stores where these similar items can be found.
+- Demo: Our video
   
 ---
 
@@ -29,5 +30,8 @@ Our project mainly consists of two things:
 
 
 ## Similarity Detection Model
+- We used the Siamese network, a specialized neural network architecture designed for tasks involving similarity and distance measurement. Siamese networks are particularly useful in scenarios where the focus is on discerning the similarity or dissimilarity between pairs of input samples.
+    - Paper Link: https://www.cs.cmu.edu/~rsalakhu/papers/oneshot1.pdf
+- For training the network, it is fed pairs of examples, with one being a positive pair (similar image) and the other a negative pair (dissimilar image). During training, the network adjusts its weights through backpropagation to maximize the similarity between similar images and minimize the similarity between dissimilar images.
 
-
+### Data collection for training siamese network
