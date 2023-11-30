@@ -1,0 +1,4 @@
+ultralytics
+opencv-python==4.8.0
+numpy==1.23.5
+tensorflow==2.14.0
