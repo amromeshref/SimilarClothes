@@ -25,7 +25,13 @@ Our project mainly consists of two things:
 ---
   
 ## Classification Model
+- In the development of our Classification Model, we employed the YOLOv8 (You Only Look Once version 8) model, renowned for its efficiency in object detection tasks. The primary objective was to classify images into four distinct classes: jeans, jackets, shoes, and shirts. YOLOv8, with its real-time processing capabilities, allowed us to achieve this classification seamlessly.
 
+- YOLOv8 Model:
+YOLOv8 is a state-of-the-art object detection model that excels in real-time applications. Its ability to process images in a single forward pass, detecting and classifying objects with high accuracy, made it an ideal choice for our clothing classification task.
+
+- Training Process:
+We utilized a diverse dataset obtained from Roboflow, a platform that automates the annotation and labeling of images. This not only accelerated the training process but also ensured accurate and reliable annotations for our clothing items. The dataset from Roboflow included images of jeans, jackets, shoes, and shirts, covering a wide range of variations in styles and appearances.
 
 
 ---
