@@ -1,0 +1,2 @@
+Store: store33
+Price(dollars): 25.0

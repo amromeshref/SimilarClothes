@@ -1,0 +1,2 @@
+Store: store17
+Price(dollars): 69.0
