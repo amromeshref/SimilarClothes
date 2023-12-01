@@ -45,7 +45,7 @@ We utilized a diverse dataset obtained from Roboflow, a platform that automates 
 #### Data collection for training the Siamese network
 - To train a Siamese neural network, you need a dataset of pairs of inputs, where each pair is labeled as either similar or dissimilar.
 - We used this dataset to collect these pairs: https://github.com/seralexger/clothing-detection-ecommerce-dataset
-- Our data that was used in training:
+- Our data that was used in training: https://drive.google.com/drive/folders/1JdVOB3C_Cw3GY6i7U6s24isqJX75LENH?usp=sharing
 
 ---
 
