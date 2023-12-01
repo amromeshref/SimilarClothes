@@ -2,3 +2,5 @@ ultralytics
 opencv-python==4.8.0
 numpy==1.23.5
 tensorflow==2.14.0
+kivy==2.2.1
+kivymd==1.1.1
