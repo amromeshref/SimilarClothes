@@ -12,7 +12,8 @@
 1. [How we did it?](#How-we-did-it?)
 2. [Classification Model](#Classification-Model)
 3. [Similarity Detection Model](#Similarity-Detection-Model)
-4. [How to Install?](#how-to-install)
+4. [Database Description](#Database-Description)
+5. [How to Install?](#how-to-install)
 
 ---
 
@@ -45,6 +46,13 @@ We utilized a diverse dataset obtained from Roboflow, a platform that automates 
 - To train a Siamese neural network, you need a dataset of pairs of inputs, where each pair is labeled as either similar or dissimilar.
 - We used this dataset to collect these pairs: https://github.com/seralexger/clothing-detection-ecommerce-dataset
 - Our data that was used in training:
+
+---
+
+## Database Description
+- The database consists of two directories: "images" and "info".
+- The "images" directory consists of other directories for each clothing type, and each type consists of some images.
+- The "info" directory contains text files for each image in the "images" directory. The text file has information about the store that sells this item as well as its price in dollars.
 
 ---
 
