@@ -1,4 +1,4 @@
-# SimilarClothes
+# StyleSync
 
 #### Description:
 - The aim of this project is to create an application with the primary objective of proficiently detecting visually similar clothing items.
