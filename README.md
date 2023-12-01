@@ -4,7 +4,7 @@
 - The aim of this project is to create an application with the primary objective of proficiently detecting visually similar clothing items.
 - The application will be intricately linked to a comprehensive database housing a diverse collection of clothing from various stores.
 - Users will be able to upload images of specific clothing item. In response, the application will provide a detailed list of similar clothes, inclusive of images, corresponding prices, and the names of stores where these similar items can be found.
-- Demo: Our video
+- Demo: https://www.youtube.com/watch?v=xPAKNA1q03M&ab_channel=AhmedGad
   
 ---
 
@@ -12,7 +12,7 @@
 1. [How we did it?](#How-we-did-it?)
 2. [Classification Model](#Classification-Model)
 3. [Similarity Detection Model](#Similarity-Detection-Model)
-4. [How to Install](#how-to-install)
+4. [How to Install?](#how-to-install)
 
 ---
 
@@ -44,4 +44,40 @@ We utilized a diverse dataset obtained from Roboflow, a platform that automates 
 #### Data collection for training the Siamese network
 - To train a Siamese neural network, you need a dataset of pairs of inputs, where each pair is labeled as either similar or dissimilar.
 - We used this dataset to collect these pairs: https://github.com/seralexger/clothing-detection-ecommerce-dataset
-- Our data that was used in training: 
+- Our data that was used in training:
+
+---
+
+## How to Install?
+1. Create a directory in your device.
+2. Click on "<> Code"
+   
+<div align="center">
+<img src= "images/code.png" style="width:400px;height:400;">
+</div> 
+
+3. Copy the url of this repository.
+   
+<div align="center">
+<img src= "images/url.png" style="width:400px;height:400;">
+</div> 
+
+4. Go to the directory you created and type this command to clone this repository:
+    ```bash
+    git clone "url you copied"
+    ```
+5. Open the "StyleSync" folder.
+6.  Type the following command to install the requirements file using pip:
+    ```bash
+    pip install -r requirements.txt
+    ```
+6. Download the siamese_model.rar form: 
+7.  If you are a user and want to get similar clothes to a specific item, type the following command to run the app:
+    ```bash
+    python3 user.py
+    ```
+8.  If you are a store owner and want to upload your products to our database, type the following command to run the app:
+    ```bash
+    python3 store.py
+    ```  
+
