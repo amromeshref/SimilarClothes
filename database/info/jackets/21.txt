@@ -1,2 +1,0 @@
-Store: store36
-Price(dollars): 97.0

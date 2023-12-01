@@ -1,2 +1,0 @@
-Store: store20
-Price(dollars): 58.0

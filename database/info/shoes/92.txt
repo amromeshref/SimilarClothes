@@ -1,2 +1,2 @@
 Store: store35
-Price(dollars): 88.0
+Price(dollars): 48.0

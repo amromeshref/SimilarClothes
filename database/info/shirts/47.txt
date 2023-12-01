@@ -1,2 +1,2 @@
 Store: store27
-Price(dollars): 85.0
+Price(dollars): 49.0

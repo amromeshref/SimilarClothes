@@ -1,2 +1,2 @@
-Store: store8
-Price(dollars): 91.0
+Store: store44
+Price(dollars): 86.0

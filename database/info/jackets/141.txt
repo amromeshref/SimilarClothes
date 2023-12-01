@@ -1,2 +1,0 @@
-Store: store24
-Price(dollars): 16.0

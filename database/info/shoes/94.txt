@@ -1,2 +1,2 @@
 Store: store2
-Price(dollars): 62.0
+Price(dollars): 96.0
