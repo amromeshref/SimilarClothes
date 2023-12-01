@@ -79,12 +79,13 @@ We utilized a diverse dataset obtained from Roboflow, a platform that automates 
     ```bash
     pip install -r requirements.txt
     ```
-6. Download the siamese_model.rar form: 
-7.  If you are a user and want to get similar clothes to a specific item, type the following command to run the app:
+6. Download the siamese_model.h5 form: https://drive.google.com/file/d/1-0g55vgp-cH-fo_tBRV9jy2cRZ4RYXb9/view?usp=sharing
+7. copy it into the "data" directory.
+8.  If you are a user and want to get similar clothes to a specific item, type the following command to run the app:
     ```bash
     python3 user.py
     ```
-8.  If you are a store owner and want to upload your products to our database, type the following command to run the app:
+9.  If you are a store owner and want to upload your products to our database, type the following command to run the app:
     ```bash
     python3 store.py
     ```  
