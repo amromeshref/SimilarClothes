@@ -73,7 +73,7 @@ We utilized a diverse dataset obtained from Roboflow, a platform that automates 
 
 4. Go to the directory you created and type this command to clone this repository:
     ```bash
-    git clone "url you copied"
+    git clone https://github.com/amromeshref/StyleSync.git
     ```
 5. Open the "StyleSync" folder.
 6.  Type the following command to install the requirements file using pip:
